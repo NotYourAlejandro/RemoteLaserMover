@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "testclient",
+            "type": "python",
+            "request": "launch",
+            "program": "./RemoteLaserMover_testclient/main.py",
+            "args": [
+                "--port=/dev/ttyACM0",
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}

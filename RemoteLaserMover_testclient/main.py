@@ -1,7 +1,7 @@
 import serial
 import sys
 
-program_file_name = "main.py"
+program_file_name = sys.argv[0]
 
 def main():
     # Check for necessary commandline arguments
@@ -15,6 +15,7 @@ def main():
     if not args_contain_port:
         print(f"Usage: {program_file_name} --port=[port here]")
         print(f"Example: {program_file_name} --port=/dev/ttyACM0")
+
 
 def eprint(*args, **kwargs):
     """This function is an abstraction to print to stderr easily.
