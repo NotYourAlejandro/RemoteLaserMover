@@ -55,7 +55,12 @@ def serial_shell():
             eprint(f"Error: Value is not in range. Range: {motor_low_range} to {motor_high_range - 1}.\n")
             continue
         
-        print(user_value)
+        # Convert entry to JSON
+        
+        
+        # Send data over serial
+        
+        
         
         
 def parse_args_port() -> str:
