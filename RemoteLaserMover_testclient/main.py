@@ -1,4 +1,3 @@
-import serial
 import sys
 
 program_file_name = sys.argv[0]
